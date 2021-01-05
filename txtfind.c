@@ -11,7 +11,7 @@ int getWord(char w[])
   {
     w[counter] = c;
     ++counter;
-    scanf("%c", &c);
+    c = getchar();
   }
   
   if(c == EOF)
@@ -32,7 +32,7 @@ int get_save_line(char w[])
   {
     w[counter] = c;
     ++counter;
-    scanf("%c", &c);
+    c = getchar();
   }
   w[counter] = '\0';
   if (c == EOF)

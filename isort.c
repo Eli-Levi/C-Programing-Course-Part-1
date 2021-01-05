@@ -44,9 +44,7 @@ int main()
         int num;
         scanf(" %d",&num);
         *(arr+i) = num;
-        printf("%d,",*(arr+i));
     }
-    printf("\n\n");
     insertion_sort(arr, ARRSIZE);
     for (int i = 0; i < ARRSIZE; i++)
     {
